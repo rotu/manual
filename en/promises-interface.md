@@ -10,7 +10,7 @@ The `promises` package adds three new methods:
 * `promiseQuery`: queries a goal and returns a promise that is resolved when the goal loads successfully, or rejected when there is an error. It takes the same arguments as the `query` method.
 * `promiseAnswer`: finds the next computed answer and returns a promise that is resolved when it finds an answer or there are no more answers, or is rejected when there is an error or the limit of inferences has been reached. It takes the same arguments as the `answer` method.
 
-Also, the package adds a fourth method, `promiseAsnwers`, to find all computed answers, returning an asynchronous generator.
+Also, the package adds a fourth method, `promiseAnswers`, to find all computed answers, returning an asynchronous generator.
 
 ```javascript
 const pl = require("tau-prolog");
