@@ -10,7 +10,7 @@ El paquete `promises` añade tres nuevos méotodos:
 * `promiseQuery`: consulta un objetivo y devuelve una promesa que se resuelve cuando el objetivo se carga correctamente, o se rechaza cuando hay un error. Recibe los mismos parámetros que el método `query`.
 * `promiseAnswer`: busca la siguiente respuesta computada y devuelve una promesa que se resuelve cuando encuentra una respuesta o no hay más respuestas, o se rechaza cuando hay un error o se ha llegado al límite de inferencias. Recibe los mismos parámetros que el método `answer`.
 
-Además, añade un cuarto método, `promiseAsnwers`, para buscar todas las respuestas computadas, devolviendo un generador asíncrono.
+Además, añade un cuarto método, `promiseAnswers`, para buscar todas las respuestas computadas, devolviendo un generador asíncrono.
 
 ```javascript
 const pl = require("tau-prolog");
